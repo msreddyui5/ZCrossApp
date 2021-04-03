@@ -1,0 +1,16 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ats.cross.controller.Main" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <VBox width="100%" direction="Column" id="__vbox0">
+				        <items>
+				            <Input width="100%" id="SalesOrg" placeholder="Enter Sales Org here..."/>
+				            <Button xmlns="sap.m" text="Are you ready" width="250px" id="__button0" press="onNav"/>
+				        </items>
+				    </VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
